@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed; /* Torna o cabeçalho fixo */
+    top: 0; /* Alinha o cabeçalho ao topo da janela de visualização */
+    width: 100%;
+    z-index: 1000;
+}
+
+#header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#conteudo {
+    padding-top: 50px; /* Ajusta o padding superior para evitar sobreposição com o cabeçalho fixo */
+    padding-left: 20px;
+    padding-right: 20px;
+}

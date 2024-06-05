@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Interativo</title>
+    <!-- Inclusão do jQuery via CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Inclusão do CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <p>Explorar meu trabalho e conhecer mais sobre mim.</p>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor web apaixonado por criar experiências interativas.</p>
+        <button id="moreAbout">Mais sobre mim</button>
+        <div id="moreAboutContent" style="display: none;">
+            <p>Tenho experiência em diversas tecnologias, incluindo HTML, CSS, JavaScript e frameworks como React e Angular.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Meu Trabalho</h2>
+        <div class="portfolio-item">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Inclusão do JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

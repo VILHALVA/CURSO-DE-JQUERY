@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Projeto com jQuery</title>
+    <!-- Inclusão do jQuery via CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button id="meuBotao">Clique Aqui</button>
+    <p id="meuParagrafo">Olá, Mundo!</p>
+
+    <!-- Seu código JavaScript -->
+    <script>
+        // Aguarde até que o DOM esteja completamente carregado
+        $(document).ready(function(){
+            // Adicione um evento de clique ao botão
+            $("#meuBotao").click(function(){
+                // Altere a cor do texto do parágrafo para vermelho
+                $("#meuParagrafo").css("color", "red");
+            });
+        });
+    </script>
+</body>
+</html>

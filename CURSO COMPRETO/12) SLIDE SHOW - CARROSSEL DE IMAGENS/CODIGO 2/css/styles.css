@@ -1,0 +1,43 @@
+#slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#slideshow {
+    position: relative;
+    width: 300%;
+    height: auto;
+    left: 0;
+    transition: left 1s ease;
+}
+
+#slideshow img {
+    width: 33.333%;
+    float: left;
+}
+
+#legendas {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.legenda {
+    display: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#slideshow-container:hover #legendas .legenda {
+    display: none;
+}
+
+#slideshow-container:hover #legendas .legenda.active {
+    display: inline-block;
+}
