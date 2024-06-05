@@ -25,7 +25,7 @@ jQuery foi criado por John Resig em 2006, com o objetivo de simplificar o desenv
 - [CURSO CRIADO PELO "EMERSON CARVALHO - PONTOCANAL"](https://youtube.com/playlist?list=PLIZ0d6lKIbVpF5DffKAX5e9L119PleIqg&si=0yXFCkLc89VhGq2A)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://jquery.com/)
-- [TECNOLOGIA](https://github.com/VILHALVA/CURSO-DE-NODEJS)
+- [LINGUAGENS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
 - [VEJA O MANUAL](./MANUAL.md) 
 - [VEJA A SINTAXE](./SINTAXE.md)
